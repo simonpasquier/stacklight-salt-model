@@ -16,3 +16,7 @@ parameters:
         nginx_proxy_openstack_web:
           proxy:
             host: ${_param:openstack_proxy_node01_address}
+  reclass:
+    storage:
+      data_source:
+        engine: local
